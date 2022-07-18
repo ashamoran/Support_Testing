@@ -2,7 +2,6 @@
 name: Report an issue
 description:
   Please describe the the bug you believe to have discovered.
-
 body:
   - type: markdown
     attributes:
