@@ -45,10 +45,10 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: attributes
     id: confirmation
     attributes:
-      label: [] Correct Configuration
+      label: Correct Configuration
       description: This includes `base_url` is set, assets are being compiled before running your tests, Ecto sandbox is configured, server is st to true for Phoenix Endpoints.
     options:
     - label: [] I confirm that I have Wallaby configured correctly.
