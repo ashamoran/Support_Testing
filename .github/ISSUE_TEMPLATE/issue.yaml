@@ -46,7 +46,6 @@ body:
       required: true
 
   - type: checkboxes
-    required: true
     id: confirmation
     attributes:
       label: Correct Configuration
