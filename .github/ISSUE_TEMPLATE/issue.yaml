@@ -53,7 +53,9 @@ body:
       description: This includes `base_url` is set, assets are being compiled before running your tests, Ecto sandbox is configured, server is st to true for Phoenix Endpoints.
       options:
         - label: I confirm that I have Wallaby configured correctly.
- 
+    validations:
+      required: true
+      
   - type: textarea
     id: current-behavior
     attributes:
